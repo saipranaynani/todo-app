@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+:root{
+    --clr-primary-blue: hsl(220, 98%, 61%);
+    --clr-primary-linear-gradient: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    --clr-neutral-lt-gray: hsl(0, 0%, 98%);
+    --clr-neutral-lt-very-gray-blue: hsl(236, 33%, 92%);
+    --clr-neutral-lt-light-gray-blue: hsl(233, 11%, 84%);
+    --clr-neutral-lt-dark-gray-blue: hsl(236, 9%, 61%);
+    --clr-neutral-lt-very-dark-gray-blue: hsl(235, 19%, 35%);
+
+    --clr-neutral-dt-very-dark-blue: hsl(235, 21%, 11%);
+    --clr-neutral-dt-very-dark-sat-blue: hsl(235, 24%, 19%);
+    --clr-neutral-dt-light-gray-blue: hsl(234, 39%, 85%);
+    --clr-neutral-dt-dark-gray-blue: hsl(234, 11%, 52%);
+    --clr-neutral-dt-very-dark-gray-blue-1: hsl(234, 11%, 52%);
+    --clr-neutral-dt-very-dark-gray-blue-2: hsl(237, 14%, 26%);
+    --font-family: 'Josefin Sans', sans-serif;
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    --card-bg-color: var(--clr-neutral-lt-gray);
+    --bg-color: var(--clr-neutral-lt-very-gray-blue);
+    --completed-item-clr: var(--clr-neutral-lt-dark-gray-blue);
+    --todo-name-clr: var(--clr-neutral-lt-very-dark-gray-blue);
+    --options-clr: var(--clr-neutral-lt-dark-gray-blue);
+    --menu-p-color: var(--clr-neutral-lt-very-dark-gray-blue);
+    --annocuncement-clr: var(--clr-neutral-lt-dark-gray-blue);
+    --todo-border-bottom-color: var(--clr-neutral-lt-dark-gray-blue);
+    --box-shadow-clr: hsl(236, 9%, 61%);
+    --round-label-clr: #fff;
+    --round-label-border: #ccc;
+    --placeholder-clr: var(--options-clr);
+    --task-input-clr: black;
+    --clr-neutral-dt-light-gray-blue-hover: var(--todo-name-clr);
+
+    min-height: 100vh;
+    font-family: var(--font-family);
+    font-size: var(--fs-body);
+    background-color: var(--bg-color);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

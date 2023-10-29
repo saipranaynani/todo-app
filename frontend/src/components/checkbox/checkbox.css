@@ -1,0 +1,46 @@
+.round {
+    position: relative;
+}
+  
+  .round label {
+    background: var(--round-label-clr);
+    border: 1px solid var(--round-label-border);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .round label:after {
+    border: 2px solid var(--clr-neutral-lt-gray);
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 4px;
+    opacity: 0;
+    position: absolute;
+    top: 5px;
+    transform: rotate(-45deg);
+    width: 10px;
+  }
+  
+.round input[type="checkbox"] {
+    visibility: hidden;
+}
+  
+.round input[type="checkbox"]:checked + label {
+    background: var(--clr-primary-linear-gradient);
+    border: 0;
+}
+  
+.round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+
+.round label:hover{
+  border: 1px solid var(--clr-primary-blue);
+}

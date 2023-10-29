@@ -1,0 +1,30 @@
+
+.all-todos{
+    margin-top: 1rem;
+    border-radius: .25rem;
+    overflow: hidden;
+}
+
+.todo{
+    padding: 1rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    background-color: var(--card-bg-color);
+    align-items: center;
+    border-bottom: 1px solid var(--todo-border-bottom-color);
+}
+
+.todo-name{
+    color: var(--todo-name-clr);
+    cursor: pointer;
+}
+
+.completed-item{
+    text-decoration: line-through;
+    color: var(--completed-item-clr);
+}
+
+.delete{
+    margin-left: auto;
+    cursor: pointer;
+}

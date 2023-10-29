@@ -1,0 +1,14 @@
+button{
+    border: none;
+    background-color: transparent;
+    color: var(--options-clr);
+    cursor: pointer;
+}
+
+.active{
+    color: var(--clr-primary-blue);
+}
+
+button:hover{
+    color: var(--clr-neutral-dt-light-gray-blue-hover);
+}
